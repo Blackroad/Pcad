@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f35a130a-c41b-484f-ad5e-c7129d8e6fb1" name="Default" comment="cleared Dashboard and cases to PEP8">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/nodeids" beforeDir="false" />
@@ -54,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="gitignore" value="59" />
+          <entry key="gitignore" value="61" />
           <entry key="json" value="76" />
           <entry key="py" value="7840" />
           <entry key="txt" value="94" />
@@ -63,7 +62,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="76" />
-          <entry key="PLAIN_TEXT" value="163" />
+          <entry key="PLAIN_TEXT" value="165" />
           <entry key="Python" value="7840" />
         </counts>
       </usages-collector>
@@ -122,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+            <state relative-caret-position="500">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
             </state>
           </provider>
         </entry>
@@ -230,18 +229,6 @@
               <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pcad" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Suite 1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -526,13 +513,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537965368208</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cleared Dashboard and cases to PEP8">
+      <created>1537965478174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537965478174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="cleared Dashboard and cases to PEP8">
+      <created>1537965570078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537965570078</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_T002_py - 2018.09.25 at 05h 11m 29s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_T002_py - 2018.09.25 at 05h 11m 44s.xml">
       <configuration name="pytest in test_T002.py" configurationId="tests" />
     </history-entry>
@@ -560,6 +558,9 @@
     <history-entry file="pytest_in_test_T001_py - 2018.09.27 at 02h 33m 47s.xml">
       <configuration name="pytest in test_T001.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_T001_py - 2018.09.27 at 02h 38m 28s.xml">
+      <configuration name="pytest in test_T001.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,14 +580,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8693361" weight="0.3181818" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8688093" visible="true" weight="0.3181818" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4801762" weight="0.3986175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992658" weight="0.32949308" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13066386" side_tool="true" visible="true" weight="0.3181818" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13119073" side_tool="true" visible="true" weight="0.3181818" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49894625" weight="0.32900432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -597,6 +598,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -821,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+        <state relative-caret-position="500">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>

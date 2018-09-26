@@ -98,7 +98,7 @@ ENV/
 # mypy
 .mypy_cache/
 
-#cache
+# cache
 .pytest_cache/
 .cache/
 .v/
