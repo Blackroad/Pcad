@@ -5,7 +5,7 @@ from fixture.Docwriter.General.supplier_information import SupplierInformationHe
 from fixture.Docwriter.General.applicable_and_attachments import ApplicableAndAttachmentInformationHelp
 from fixture.Dashboard.dashboard import DashboardHelper
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
 
 
@@ -27,14 +27,13 @@ class Application:
         self.dashboard = DashboardHelper(self)
         self.appl_attach = ApplicableAndAttachmentInformationHelp(self)
 
-
     def wait(self, element, wait_type='visible'):
         wd = self.wd
         wait = WebDriverWait(wd, 20)
         if wait_type == 'visible':
-            wait.until(EC.visibility_of_element_located((By.XPATH, "%s" % element)))
+            wait.until(ec.visibility_of_element_located((By.XPATH, "%s" % element)))
         elif wait_type == 'click':
-            wait.until(EC.element_to_be_clickable((By.XPATH, "%s" % element)))
+            wait.until(ec.element_to_be_clickable((By.XPATH, "%s" % element)))
 
     def change_active_tab(self):
         wd = self.wd
@@ -46,22 +45,13 @@ class Application:
         current = wd.current_window_handle
         return current
 
-
-
-
-
-
-
-
     def open_home_page(self):
         wd = self.wd
         if not (wd.current_url.endswith("PCAD/Dashboard") and
                 len(wd.find_elements_by_xpath("//table[@class='allDocumentsTable']")) > 0):
             wd.get(self.base_url)
 
-
-
-    def error_checker(self,section, label):
+    def error_checker(self, section, label):
         wd = self.wd
         current_element_index = None
         labels = wd.find_elements_by_xpath("//div[@id='leftMenuBar']//li[@class='node']/a")
@@ -70,11 +60,10 @@ class Application:
                 current_element_index = int(labels.index(element)) + 1
                 break
         counter = wd.find_element_by_xpath("//div[@id='leftMenuBar']//ul[%s]//li[%s]/span[@class='errorsCount']" %
-                                           (section,current_element_index))
+                                           (section, current_element_index))
         if counter.text == '0':
             return True
         return False
-
 
     def save_changes(self):
         wd = self.wd
@@ -83,7 +72,6 @@ class Application:
     def next(self):
         wd = self.wd
         wd.find_element_by_xpath('//div[@class="navigationPanel"]/a[text()="Next"]').click()
-
 
     def identify_in_current_section(self):
         wd = self.wd
@@ -95,38 +83,36 @@ class Application:
         try:
             wd.find_element_by_xpath("//*[@id='navigationBar']//a[@href and text()='%s']" % name_of_section)
         except Exception as e:
-            print ("Error as %s" %e)
+            print("Error as %s" % e)
 
     def skip_to(self, name_of_section):
         wd = self.wd
         last_clickable_element = self.get_last_clickable_section()
-        if len(wd.find_elements_by_xpath("//*[@id='navigationBar']//a[@href and text()= '%s' "
-                                         "and @style='display: none;']" % name_of_section)) == False:
-            #if element is clcikable no need to skip
+        # if element is clickable no need to skip
+        if not len(wd.find_elements_by_xpath("//*[@id='navigationBar']//a[@href and text()='%s' "
+                                             "and @style='display: none;']" % name_of_section)):
             wd.find_element_by_xpath("//*[@id='navigationBar']//a[@href and text()= '%s']" % name_of_section).click()
-        elif len(wd.find_elements_by_xpath("//*[@href and @class='currentItem' and text()='%s']"
-                                           % last_clickable_element)) == False:
+        elif not len(wd.find_elements_by_xpath("//*[@href and @class='currentItem' "
+                                               "and text()='%s']" % last_clickable_element)):
             wd.find_element_by_xpath("//*[@id='navigationBar']//a[@href and text()= '%s']"
                                      % last_clickable_element).click()
-            while len(wd.find_elements_by_xpath("//*[@href and @class='currentItem' "
-                                                "and text()='%s']" % name_of_section)) == False:   # while our section is not current - click Next
+            while not len(wd.find_elements_by_xpath("//*[@href and @class='currentItem' and text()='%s']"
+                                                    % name_of_section)):  # while our section is not current-click Next
                 self.next()
 
-
-
-    def element_in_navigation_tree(self,element_name):
+    def element_in_navigation_tree(self, element_name):
         wd = self.wd
-        list = wd.find_elements_by_xpath("//div[@id='navigationBar']//ul//a | /label[@style]")
-        for i in list:
+        lst = wd.find_elements_by_xpath("//div[@id='navigationBar']//ul//a | /label[@style]")
+        for i in lst:
             if i.text == element_name:
                 return True
         return False
 
-
     def get_last_clickable_section(self):
         wd = self.wd
-        lst=[]
-        sections_as_links = wd.find_elements_by_xpath("//div[@id='navigationBar']//ul//a | /label[@style='display: none;']")
+        lst = []
+        sections_as_links = wd.find_elements_by_xpath("//div[@id='navigationBar']//ul//a "
+                                                      "| /label[@style='display: none;']")
         for element in sections_as_links:
             if element.text == '':
                 sections_as_links.pop(sections_as_links.index(element))
@@ -134,22 +120,23 @@ class Application:
                 lst.append(element.text)
         return lst[-1]
 
-    def plan_B(self, name_of_element):
-        wd=self.wd
+    def plan_b(self, name_of_element):
+        wd = self.wd
         elem_index = None
-        list = wd.find_elements_by_xpath("//div[@id='navigationBar']//ul//a | /label[@style]")
-        for elem in list:
+        lst = wd.find_elements_by_xpath("//div[@id='navigationBar']//ul//a | /label[@style]")
+        for elem in lst:
             if elem.text == name_of_element:
-                elem_index = list.index(elem)
+                elem_index = lst.index(elem)
         ul_index = self.get_ul_index(elem_index)
-        for i in range((elem_index-1),0):
-            if len(wd.find_elements_by_xpath("//div[@id='navigationBar']//ul[%s]//li[%s]//a | /label[@style='display: none']" % (ul_index,elem_index))) > 0:
-                wd.find_element("//div[@id='navigationBar']//ul[%s]//li[%s]//a | /label[@style='display: none']" % (ul_index, elem_index)).click()
+        for i in range((elem_index-1), 0):
+            if len(wd.find_elements_by_xpath("//div[@id='navigationBar']//ul[%s]//li[%s]//a "
+                                             "| /label[@style='display: none']" % (ul_index, elem_index))) > 0:
+                wd.find_element("//div[@id='navigationBar']//ul[%s]//li[%s]//a "
+                                "| /label[@style='display: none']" % (ul_index, elem_index)).click()
             pass
 
-
-
-    def get_ul_index(self, elem_index):
+    @staticmethod
+    def get_ul_index(elem_index):
         if elem_index in range(5):
             ul = 1
         elif elem_index in range(5, 10):
@@ -165,14 +152,10 @@ class Application:
     def destroy(self):
         self.wd.quit()
 
-
-
-
-
-    @property
     def is_valid(self):
         try:
             self.wd.current_url()
             return True
-        except:
+        except Exception as e:
+            print(e)
             return False
