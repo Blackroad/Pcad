@@ -27,10 +27,13 @@ class DashboardHelper:
         wd = self.app.wd
         if search_value is None:
             wd.find_element_by_xpath("//input[@placeholder='Search documents']").clear()
+        elif search_value == 'My Documents':
+            wd.find_element_by_xpath("//input[@value = 'My Documents']").click()
         else:
             wd.find_element_by_xpath("//input[@placeholder='Search documents']").clear()
             wd.find_element_by_xpath("//input[@placeholder='Search documents']").send_keys(search_value)
         wd.find_element_by_xpath("//input[@value='Search']").click()
+        self.app.wait("//a[@href and text()='Edit']")
 
     def apply_sorting(self, column_name):
         wd = self.app.wd
