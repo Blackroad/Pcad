@@ -1,0 +1,4 @@
+{
+  "test_T001.py::test_PCAD_Dashboard_UI_elements": true,
+  "test_db.py::test_db": true
+}
