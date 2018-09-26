@@ -99,5 +99,6 @@ ENV/
 .mypy_cache/
 
 #cache
-tests/.pytest_cache
-tests/.cache
+.pytest_cache/
+.cache/
+.v/
