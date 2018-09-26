@@ -16,17 +16,23 @@ def load_config(file):
             target = json.load(opened_file)
     return target
 
-@pytest.fixture
-def app(request):
+
+@pytest.fixture(scope='session')
+def config(request):
+    return load_config(request.config.getoption("--target"))
+
+@pytest.fixture()
+def app(request, config):
     global fixture
     browser = request.config.getoption("--browser")
-    web_config = load_config(request.config.getoption("--target"))['web']
-    if fixture is None or not fixture.is_valid():
-        fixture = Application(browser= browser, base_url=web_config["baseURL"])
+    if fixture is None or not fixture.is_valid:
+        fixture = Application(browser= browser, config=config)
     return fixture
 
 
-@pytest.fixture()
+
+
+@pytest.fixture(autouse=True)
 def stop(request):
     def fin():
         fixture.destroy()
