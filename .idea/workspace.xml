@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f35a130a-c41b-484f-ad5e-c7129d8e6fb1" name="Default" comment="cleared Dashboard and cases to PEP8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/db_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db_core.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +14,7 @@
     <session id="-1612740379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -26,15 +25,16 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="py" value="35" />
+          <entry key="log" value="1" />
+          <entry key="py" value="36" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="35" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/db_core.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -77,6 +77,24 @@
               <folding>
                 <marker date="1537964442573" expanded="true" signature="41:46" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/debug.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -146,10 +164,13 @@
           <State>
             <id>Buildout</id>
           </State>
+          <State>
+            <id>Spelling</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Buildout</id>
+            <id>SpellCheckingInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -170,6 +191,41 @@
               <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pcad" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Suite 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Suite 1" type="462c0819:PsiDirectoryNode" />
+              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Suite 1" type="462c0819:PsiDirectoryNode" />
+              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
+              <item name="v" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Suite 1" type="462c0819:PsiDirectoryNode" />
+              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
+              <item name="v" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +235,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/requirements.txt" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -425,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537964106581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cleared Dashboard and cases to PEP8">
+      <created>1537964450508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537964450508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -477,7 +540,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86986303" visible="true" weight="0.3181818" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86986303" weight="0.3181818" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4801762" weight="0.3986175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/Dashboard/dashboard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -702,6 +758,20 @@
           <folding>
             <marker date="1537964442573" expanded="true" signature="41:46" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
