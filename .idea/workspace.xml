@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35a130a-c41b-484f-ad5e-c7129d8e6fb1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Pcad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pcad.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f35a130a-c41b-484f-ad5e-c7129d8e6fb1" name="Default" comment="cleared Application to PEP8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/General/applicable_and_attachments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/General/document_information.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/General/product_information.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/General/supplier_information.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target.json" beforeDir="false" afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/Dashboard/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/Dashboard/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Suite 1/test_T001.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Suite 1/test_T001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Suite 1/test_T002.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Suite 1/test_T002.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="py" value="30" />
+          <entry key="py" value="33" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -43,38 +37,64 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="30" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
+          <entry key="dummy" value="10" />
           <entry key="json" value="76" />
-          <entry key="py" value="7525" />
-          <entry key="txt" value="28" />
+          <entry key="py" value="7831" />
+          <entry key="txt" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="76" />
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="7525" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="7831" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="111" column="99" selection-start-line="111" selection-start-column="99" selection-end-line="111" selection-end-column="99" />
+            <state relative-caret-position="358">
+              <caret line="153" selection-start-line="153" selection-end-line="153" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1537960370621" expanded="true" signature="1839:1939" ph="..." />
-                <marker date="1537960370621" expanded="true" signature="6442:6449" ph="..." />
+                <marker date="1537963395378" expanded="true" signature="1838:1931" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixture/Dashboard/dashboard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1598">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -107,11 +127,9 @@
         <option value="$PROJECT_DIR$/fixture/db_core.py" />
         <option value="$PROJECT_DIR$/tests/test_login.py" />
         <option value="$PROJECT_DIR$/tests/test_T001.py" />
-        <option value="$PROJECT_DIR$/tests/Suite 1/test_T001.py" />
         <option value="$PROJECT_DIR$/target.json" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/dashboard.py" />
-        <option value="$PROJECT_DIR$/tests/Suite 1/test_T002.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/resources.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/configurable_values.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/product_control_stratage_calc.py" />
@@ -126,6 +144,9 @@
         <option value="$PROJECT_DIR$/fixture/Administration/notidications.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/tests/Suite 1/test_T001.py" />
+        <option value="$PROJECT_DIR$/tests/Suite 1/test_T002.py" />
+        <option value="$PROJECT_DIR$/fixture/Dashboard/dashboard.py" />
       </list>
     </option>
   </component>
@@ -175,6 +196,12 @@
             <path>
               <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pcad" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,7 +219,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/requirements.txt" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -213,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_T002.py">
+  <component name="RunManager" selected="Python tests.pytest in test_T001.py">
     <configuration name="db_core" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pcad" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,8 +418,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_T002.py" />
         <item itemvalue="Python tests.pytest in test_T001.py" />
+        <item itemvalue="Python tests.pytest in test_T002.py" />
         <item itemvalue="Python tests.pytest for tests.test_T001.test_login" />
         <item itemvalue="Python.db_core" />
         <item itemvalue="Python tests.pytest for test_db.test_db" />
@@ -410,12 +437,31 @@
       <option name="presentableId" value="Default" />
       <updated>1513870934268</updated>
     </task>
+    <task id="LOCAL-00001" summary="PCAD-dev 1.0">
+      <created>1537961960453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537961960453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="PCAD-dev 1.0">
+      <created>1537962009968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537962009968</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cleared Application to PEP8">
+      <created>1537963413403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537963413403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_T002_py - 2018.09.25 at 05h 09m 59s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_T002_py - 2018.09.25 at 05h 10m 13s.xml">
       <configuration name="pytest in test_T002.py" configurationId="tests" />
     </history-entry>
@@ -443,6 +489,9 @@
     <history-entry file="pytest_in_test_T002_py - 2018.09.25 at 05h 21m 30s.xml">
       <configuration name="pytest in test_T002.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_T001_py - 2018.09.27 at 02h 09m 33s.xml">
+      <configuration name="pytest in test_T001.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,21 +504,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4992658" weight="0.32949308" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87077826" weight="0.31912443" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86986303" visible="true" weight="0.3181818" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4801762" weight="0.3986175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992658" weight="0.32949308" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007342" side_tool="true" visible="true" weight="0.29978356" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13013698" side_tool="true" visible="true" weight="0.3181818" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49894625" weight="0.32900432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -483,6 +531,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="PCAD-dev 1.0" />
+    <MESSAGE value="cleared Application to PEP8" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleared Application to PEP8" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -594,31 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="92" lean-forward="true" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Dashboard/dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -677,13 +707,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="111" column="99" selection-start-line="111" selection-start-column="99" selection-end-line="111" selection-end-column="99" />
+        <state relative-caret-position="358">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1537960370621" expanded="true" signature="1839:1939" ph="..." />
-            <marker date="1537960370621" expanded="true" signature="6442:6449" ph="..." />
+            <marker date="1537963395378" expanded="true" signature="1838:1931" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Dashboard/dashboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
