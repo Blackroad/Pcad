@@ -7,6 +7,9 @@ from fixture.Dashboard.dashboard import DashboardHelper
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
+from fixture.Administration.admin_main import AdministrationMain
+from fixture.Administration.configurable_values import ConfigurableValuesHelper
+from time import sleep
 
 
 class Application:
@@ -26,14 +29,28 @@ class Application:
         self.supplierinfo = SupplierInformationHelp(self)
         self.dashboard = DashboardHelper(self)
         self.appl_attach = ApplicableAndAttachmentInformationHelp(self)
+        self.administration = AdministrationMain(self)
+        self.configurable_values = ConfigurableValuesHelper(self)
 
-    def wait(self, element, wait_type='visible'):
+    def element_presented(self, **xpath_list):
+        wd = self.wd
+        for key, value in xpath_list.items():
+            if len(wd.find_elements_by_xpath(value)) == 0:
+                print("{} is missed".format(key))
+                return False
+            else:
+                pass
+                return True
+
+    def wait(self, element=None, wait_type=None):
         wd = self.wd
         wait = WebDriverWait(wd, 20)
-        if wait_type == 'visible':
+        if wait_type == 'visible' and element is not None:
             wait.until(ec.visibility_of_element_located((By.XPATH, "%s" % element)))
-        elif wait_type == 'click':
+        elif wait_type == 'click'and element is not None:
             wait.until(ec.element_to_be_clickable((By.XPATH, "%s" % element)))
+        elif wait_type == None and element is None:
+            sleep(1)
 
     def change_active_tab(self):
         wd = self.wd
@@ -47,8 +64,7 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-        if not (wd.current_url.endswith("PCAD/Dashboard") and
-                len(wd.find_elements_by_xpath("//table[@class='allDocumentsTable']")) > 0):
+        if not (wd.current_url.endswith("PCAD/Dashboard") and len(wd.find_elements_by_xpath("//table[@class='allDocumentsTable']")) > 0):
             wd.get(self.base_url)
 
     def error_checker(self, section, label):
@@ -151,6 +167,18 @@ class Application:
 
     def destroy(self):
         self.wd.quit()
+
+    def allert_action(self, action):
+        wd = self.wd
+        if action == 'Yes':
+            wd.switch_to.alert.accept()
+            sleep(1)
+        elif action == 'No':
+            wd.switch_to.alert.dismiss()
+            sleep(1)
+
+
+
 
     def is_valid(self):
         try:

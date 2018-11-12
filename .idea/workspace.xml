@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35a130a-c41b-484f-ad5e-c7129d8e6fb1" name="Default" comment="cleared Dashboard and cases to PEP8">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/velycv1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/velycv1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/Administration/configurable_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/Administration/configurable_values.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/Dashboard/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/Dashboard/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/db_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/nodeids" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Suite 1/.pytest_cache/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Suite 1/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Suite 1/.pytest_cache/v/cache/nodeids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Suite 1/test_T002.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Suite 1/test_T002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Suite 1/test_T001.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Suite 1/test_T001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Suite 2/test_T003.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Suite 2/test_T003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_db.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,34 +30,38 @@
     <session id="-1612740379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="json" value="1" />
-          <entry key="lastfailed" value="1" />
-          <entry key="log" value="1" />
-          <entry key="md" value="1" />
-          <entry key="nodeids" value="1" />
-          <entry key="py" value="43" />
-          <entry key="txt" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="json" value="2" />
+          <entry key="lastfailed" value="2" />
+          <entry key="log" value="2" />
+          <entry key="md" value="2" />
+          <entry key="nodeids" value="2" />
+          <entry key="py" value="81" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="43" />
+          <entry key="JSON" value="2" />
+          <entry key="Log" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +69,7 @@
           <entry key="dummy" value="10" />
           <entry key="gitignore" value="61" />
           <entry key="json" value="76" />
-          <entry key="py" value="8021" />
+          <entry key="py" value="14328" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
@@ -65,7 +77,7 @@
         <counts>
           <entry key="JSON" value="76" />
           <entry key="PLAIN_TEXT" value="165" />
-          <entry key="Python" value="8021" />
+          <entry key="Python" value="14328" />
         </counts>
       </usages-collector>
     </session>
@@ -73,62 +85,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <marker date="1537963395378" expanded="true" signature="1838:1931" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/Dashboard/dashboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state relative-caret-position="1802">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Suite 2/test_T003.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="221">
+              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding>
-                <marker date="1537973770164" expanded="true" signature="19:20" ph="..." />
+                <marker date="1539253353716" expanded="true" signature="74:75" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+        <entry file="file://$PROJECT_DIR$/fixture/Administration/default_features_list.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/db_core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/Administration/configurable_values.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+              <folding>
+                <marker date="1538660270577" expanded="true" signature="31:36" ph="..." />
+                <marker date="1538660270577" expanded="true" signature="60:89" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/Administration/roles_management.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/Administration/suppliar_msa_features.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/Administration/admin_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -161,10 +197,8 @@
         <option value="$PROJECT_DIR$/tests/test_login.py" />
         <option value="$PROJECT_DIR$/tests/test_T001.py" />
         <option value="$PROJECT_DIR$/target.json" />
-        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/dashboard.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/resources.py" />
-        <option value="$PROJECT_DIR$/fixture/Administration/configurable_values.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/product_control_stratage_calc.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/suppliar_msa_features.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/default_features_list.py" />
@@ -175,18 +209,21 @@
         <option value="$PROJECT_DIR$/fixture/Administration/check_out_documents.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/roles_management.py" />
         <option value="$PROJECT_DIR$/fixture/Administration/notidications.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
-        <option value="$PROJECT_DIR$/tests/Suite 1/test_T001.py" />
-        <option value="$PROJECT_DIR$/fixture/db_core.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/Suite 1/test_T002.py" />
         <option value="$PROJECT_DIR$/fixture/Dashboard/dashboard.py" />
+        <option value="$PROJECT_DIR$/fixture/db_core.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/fixture/Administration/configurable_values.py" />
+        <option value="$PROJECT_DIR$/fixture/Administration/admin_main.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/tests/Suite 1/test_T001.py" />
         <option value="$PROJECT_DIR$/tests/Suite 2/test_T003.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="217" />
     <option name="y" value="116" />
     <option name="width" value="1400" />
@@ -220,23 +257,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pcad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
-              <item name="fixture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pcad" type="462c0819:PsiDirectoryNode" />
-              <item name="fixture" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pcad" type="b2602c69:ProjectViewProjectNode" />
@@ -259,12 +286,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/requirements.txt" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -285,28 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_T002.py">
-    <configuration name="db_core" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pcad" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fixture" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fixture/db_core.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_T003.test_t003">
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="TSOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -394,33 +399,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_db.test_db" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_T001.test_t001" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Pcad" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Program Files (x86)\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Suite 1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_db.test_db&quot;" />
+      <option name="_new_target" value="&quot;test_T001.test_t001&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_T001.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_T003.test_t003" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Pcad" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Program Files (x86)\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Suite 2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_T001.test_login&quot;" />
+      <option name="_new_target" value="&quot;test_T003.test_t003&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -439,35 +444,50 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_T002.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_T003.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Pcad" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Program Files (x86)\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Suite 1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Suite 2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Suite 1/test_T002.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Suite 2/test_T003.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Pcad" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_T001.py" />
-      <item itemvalue="Python tests.pytest for test_db.test_db" />
-      <item itemvalue="Python.db_core" />
-      <item itemvalue="Python tests.pytest for tests.test_T001.test_login" />
-      <item itemvalue="Python tests.pytest in test_T002.py" />
+      <item itemvalue="Python tests.pytest in test_T003.py" />
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest for test_T001.test_t001" />
+      <item itemvalue="Python tests.pytest for test_T003.test_t003" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_T002.py" />
+        <item itemvalue="Python tests.pytest for test_T003.test_t003" />
+        <item itemvalue="Python tests.pytest for test_T001.test_t001" />
         <item itemvalue="Python tests.pytest in test_T001.py" />
-        <item itemvalue="Python tests.pytest for tests.test_T001.test_login" />
-        <item itemvalue="Python.db_core" />
-        <item itemvalue="Python tests.pytest for test_db.test_db" />
+        <item itemvalue="Python tests.pytest in test_T003.py" />
+        <item itemvalue="Python tests.pytest in tests" />
       </list>
     </recent_temporary>
   </component>
@@ -559,39 +579,46 @@
       <option name="project" value="LOCAL" />
       <updated>1537965739718</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cleared Dashboard and cases to PEP8">
+      <created>1537973806192</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1537973806192</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_T001_py - 2018.09.27 at 02h 33m 47s.xml">
-      <configuration name="pytest in test_T001.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_T003_py - 2018.10.05 at 03h 52m 13s.xml">
+      <configuration name="pytest in test_T003.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T001_py - 2018.09.27 at 02h 38m 28s.xml">
-      <configuration name="pytest in test_T001.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_T003_py - 2018.10.05 at 03h 55m 36s.xml">
+      <configuration name="pytest in test_T003.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T001_py - 2018.09.27 at 04h 13m 51s.xml">
-      <configuration name="pytest in test_T001.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_T003_py - 2018.10.05 at 03h 56m 28s.xml">
+      <configuration name="pytest in test_T003.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 14m 09s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_T003_py - 2018.10.05 at 04h 01m 55s.xml">
+      <configuration name="pytest in test_T003.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 19m 42s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_T003_py - 2018.10.05 at 04h 03m 12s.xml">
+      <configuration name="pytest in test_T003.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 23m 43s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_T003_py - 2018.10.05 at 04h 04m 02s.xml">
+      <configuration name="pytest in test_T003.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 25m 35s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_T001_test_t001 - 2018.10.09 at 07h 00m 07s.xml">
+      <configuration name="pytest for test_T001.test_t001" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 27m 12s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_T001_test_t001 - 2018.10.09 at 07h 05m 33s.xml">
+      <configuration name="pytest for test_T001.test_t001" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 27m 32s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_T003_test_t003 - 2018.10.11 at 05h 22m 15s.xml">
+      <configuration name="pytest for test_T003.test_t003" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_T002_py - 2018.09.27 at 04h 27m 55s.xml">
-      <configuration name="pytest in test_T002.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_T003_test_t003 - 2018.10.11 at 05h 23m 05s.xml">
+      <configuration name="pytest for test_T003.test_t003" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -604,22 +631,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="217" y="116" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34801763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49894625" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.866373" visible="true" weight="0.31797236" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.479442" weight="0.3986175" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49841937" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8524763" weight="0.31709957" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4678609" weight="0.3982684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49841937" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49894625" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6959958" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13362701" side_tool="true" visible="true" weight="0.31797236" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14752372" side_tool="true" visible="true" weight="0.31709957" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49706313" weight="0.35023043" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -641,9 +667,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="cleared Dashboard and cases to PEP8" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/application.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/Administration/configurable_values.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
         <watch expression="labels[0].parent" />
+        <watch expression="wd.window_handles" />
+      </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="result.Category" />
       </configuration>
     </watches-manager>
   </component>
@@ -652,13 +696,7 @@
     <entry file="file://$PROJECT_DIR$/test_001.py" />
     <entry file="file://$PROJECT_DIR$/fixture/general.py" />
     <entry file="file://$PROJECT_DIR$/fixture/General/general_main.py" />
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/_pytest/assertion/rewrite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/_pytest/assertion/rewrite.py" />
     <entry file="file://$PROJECT_DIR$/fixture/Docwriter/General/applicable_and_attachments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -687,61 +725,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" />
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/_pytest/python.py" />
+    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/pluggy/callers.py" />
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/product_control_stratage_calc.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/minimum_presentation_of_samples_values_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="408" selection-start-line="408" selection-end-line="408" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/manager_report_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+    <entry file="file://$PROJECT_DIR$/tests/.pytest_cache/README.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36/Lib/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="500">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_db.py" />
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="176">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/pandas/io/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23273">
+          <caret line="1389" selection-start-line="1389" selection-end-line="1389" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/v/cache/nodeids">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,124 +794,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/resources.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/configurable_values.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/product_control_stratage_calc.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/suppliar_msa_features.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/default_features_list.py">
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/notidications.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/Administration/feature_default_values.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/minimum_presentation_of_samples_values_list.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/development_project_list.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/manager_report_list.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/check_out_documents.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/roles_management.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/Administration/notidications.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/.pytest_cache/README.md" />
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/README.md" />
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/v/cache/lastfailed" />
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/.pytest_cache/v/cache/nodeids" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/db_core.py">
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1537964442573" expanded="true" signature="41:46" ph="..." />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="766" selection-start-line="766" selection-end-line="766" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T001.py">
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="244">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/development_project_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/check_out_documents.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/resources.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="697">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1537963395378" expanded="true" signature="1838:1931" ph="..." />
+            <marker date="1538661812204" expanded="true" signature="2567:2660" ph="..." />
+            <marker date="1538661812204" expanded="true" signature="7313:7523" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/Dashboard/dashboard.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/default_features_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/db_core.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_db.py">
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/configurable_values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding>
+            <marker date="1538660270577" expanded="true" signature="31:36" ph="..." />
+            <marker date="1538660270577" expanded="true" signature="60:89" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/roles_management.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/suppliar_msa_features.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/Administration/admin_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Suite 2/test_T003.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
-            <marker date="1537973770164" expanded="true" signature="19:20" ph="..." />
+            <marker date="1539253353716" expanded="true" signature="74:75" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Suite 1/test_T002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

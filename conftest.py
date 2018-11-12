@@ -4,14 +4,14 @@ import json
 import os.path
 
 
-
 fixture = None
 target = None
+
 
 def load_config(file):
     global target
     if target is None:
-        config_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),file)
+        config_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), file)
         with open(config_file) as opened_file:
             target = json.load(opened_file)
     return target
@@ -21,18 +21,17 @@ def load_config(file):
 def config(request):
     return load_config(request.config.getoption("--target"))
 
-@pytest.fixture()
+
+@pytest.fixture(scope='session')
 def app(request, config):
     global fixture
     browser = request.config.getoption("--browser")
     if fixture is None or not fixture.is_valid:
-        fixture = Application(browser= browser, config=config)
+        fixture = Application(browser=browser, config=config)
     return fixture
 
 
-
-
-@pytest.fixture(autouse=True)
+@pytest.fixture(scope='session', autouse=True)
 def stop(request):
     def fin():
         fixture.destroy()
@@ -41,9 +40,5 @@ def stop(request):
 
 
 def pytest_addoption(parser):
-    parser.addoption ("--browser", action='store', default='chrome')
+    parser.addoption("--browser", action='store', default='chrome')
     parser.addoption("--target", action='store', default='target.json')
-
-
-
-

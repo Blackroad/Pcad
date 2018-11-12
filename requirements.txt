@@ -1,5 +1,5 @@
 pytest
 selenium
 db
-pandas
+
 

@@ -5,16 +5,6 @@ class DashboardHelper:
     def __init__(self, app):
         self.app = app
 
-    def element_presented(self, **xpath_list):
-        wd = self.app.wd
-        for key, value in xpath_list.items():
-            if len(wd.find_elements_by_xpath(value)) == 0:
-                print("{} is missed".format(key))
-                return False
-            else:
-                pass
-                return True
-
     def edit_document(self, doc_number=None):
         wd = self.app.wd
         set_of_docs = wd.find_elements_by_xpath("//table[@class='allDocumentsTable']//td[@class='break-initial']/a[@href and text()='Edit']")
@@ -110,7 +100,7 @@ class DashboardHelper:
 
     def get_all_unique_authors(self):
         wd = self.app.wd
-        authors = set([i.text for i in wd.find_elements_by_xpath("//td[3][@data-bind and text()]")])
+        authors = set([i.text for i in wd.find_elements_by_xpath("//div//fieldset[@class='float-left allDocumentsCont']//td[3]")])
         for item in authors:
             authors = (' '.join(item.split(' ')[0:2]))
         return authors
